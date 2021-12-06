@@ -1,0 +1,74 @@
+.therapies{
+    background-repeat: no-repeat;
+    background-position: 4% 5%, 10% 29%, top left;
+    .therapies-wrapper{
+        align-items: center;
+        padding-top: 128px;
+        padding-bottom: 220px;
+    }
+
+    .therapies-content{
+        flex: 1 1 612px;
+        margin-right: 70px;
+
+        h2{
+            margin: 0px;
+            max-width: 612px;
+            margin-bottom: 40px;
+        }
+
+        p{
+            max-width: 612px;
+            margin-bottom: 60px;
+        }
+
+        .main-btn-blue{
+            padding: 22px 59px 19px 45px;
+        }
+    }
+
+    .therapies-slider{
+        flex: 0 1 auto;
+
+        .therapies-slider-wrapper{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .therapies-slider-button{
+            z-index: 5;
+            width: 83px;
+            height: 83px;
+            margin-right: -52px;
+        }
+
+        .therapies-slider-button img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .therapies-slider-next{
+            transform: rotate(180deg);
+            margin-right: 0px;
+            margin-left: -52px;
+        }
+
+        .therapies-slider-content{
+            width: calc(100% - 166px);
+            height: 495px;
+            padding: 30px;
+            background-color: $color__background-body;
+            border-radius: 15px;
+        }
+
+        .therapies-slider-content img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+}

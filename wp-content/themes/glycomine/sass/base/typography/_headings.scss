@@ -1,0 +1,55 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	color: $color__heading-hero-banner;
+	font-family: "Cabin";
+	font-size: 62px;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: capitalize;
+	line-height: 70px;
+}
+
+h2{
+	font-family: "Cabin";
+	font-size: 44px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 55px;
+}
+
+h3{
+	font-family: "Cabin";
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 34px;
+	color: $color__heading-3;
+}
+
+.hero-banner{
+	h1{
+		color: $color__heading-hero-banner;
+	}
+}
+
+.pmm2-cdg{
+	h2{
+		color: $color__heading-green-2;
+	}
+}
+
+.therapies{
+	h2{
+		color: $color__heading-hero-banner;
+	}
+}

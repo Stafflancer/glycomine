@@ -1,0 +1,33 @@
+.pages{
+    .pages-wrapper{
+        padding-bottom: 117px;
+    }
+
+    .pages-links{
+        width: 100%;
+        margin-top: -120px;
+    }
+
+    .pages-item{
+        padding: 50px 27px 35px 45px;
+        background-color: $color__background-body;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px #00000026;
+
+        h3{
+            max-width: 214px;
+            margin-bottom: 14px;
+            min-height: 68px;
+        }
+    
+        p{
+            max-width: 223px;
+            margin-bottom: 26px;
+            min-height: 122px;
+        }
+    }
+
+    .pages-item+.pages-item{
+        margin-left: 35px;
+    }
+}

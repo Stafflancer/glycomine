@@ -1,0 +1,64 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	font-size: 1rem;
+	line-height: $font__line-height-body;
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('/src/fonts/Cabin-Bold.eot');
+    src: local('Cabin'),
+      url('/src/fonts/Cabin-Bold.ttf'),
+      url('/src/fonts/Cabin-Bold.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/src/fonts/Poppins-Regular.eot');
+  src: local('Cabin'),
+    url('/src/fonts/Poppins-Regular.ttf') format('ttf'),
+    url('/src/fonts/Poppins-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+p{
+	font-size:  21px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Poppins';
+}
+
+.hero-banner{
+  p{
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba($color: $color__text-hero-banner, $alpha: 1.0);
+  }
+}
+
+.therapies{
+  p{
+    color: rgba($color: $color__text-hero-banner, $alpha: 1.0);
+  }
+}
+
+.pages{
+  p{
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba($color: #6C757D, $alpha: 1.0);
+  }
+}
+
+@import "headings";
+@import "copy";

@@ -1,0 +1,72 @@
+{
+    "key": "group_5d16233395958",
+    "title": "Theme Colors",
+    "fields": [
+        {
+            "key": "field_5d162cfd45223",
+            "label": "Theme Colors",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d16235b009ea",
+            "label": "Theme Colors",
+            "name": "theme_colors",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "#003192": "<div style=\"display: flex; align-items: center;\"><span style=\"background-color:#003192; border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Blue<\/div>",
+                "#0185d1": "<div style=\"display: flex; align-items: center;\"><span style=\"background-color:#0185d1; border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Medium Blue<\/div>",
+                "#00aaff": "<div style=\"display: flex; align-items: center;\"><span style=\"background-color:#00aaff; border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Light Blue<\/div>",
+                "#009144": "<div style=\"display: flex; align-items: center;\"><span style=\"background-color:#009144; border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Green<\/div>",
+                "#05979e": "<div style=\"display: flex; align-items: center;\"><span style=\"background-color:#05979e; border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Teal<\/div>",
+                "#000": "<div style=\"display: flex; align-items: center;\"><span style=\"background-color:#000; border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Black<\/div>",
+                "#fff": "<div style=\"display: flex; align-items: center;\"><span style=\"background-color:#fff; border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>White<\/div>",
+                "#D3D3D3": "<div style=\"display: flex; align-items: center;\"><span style=\"background-color:#D3D3D3; border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Color for text (white)<\/div>",
+                "#3D4750": "<div style=\"display: flex; align-items: center;\"><span style=\"background-color:#3D4750; border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Color for text (black)<\/div>"
+            },
+            "default_value": "#003192",
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "modified": 1637580321
+}

@@ -1,0 +1,25 @@
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"] + label{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+input[type="checkbox"] + label:before{
+    cursor: pointer;
+    display: block;
+    content: "";
+    width: 29px;
+    height: 29px;
+    background-color: #fff;
+    margin-right: 12px;
+}
+
+input[type="checkbox"]:checked + label:before{
+    background-color: #18999F;
+}

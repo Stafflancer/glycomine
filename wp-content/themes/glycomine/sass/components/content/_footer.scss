@@ -1,0 +1,88 @@
+footer{
+    background-repeat: no-repeat;
+    background-position: top left;
+
+    .footer-wrapper{
+        padding: 43px 0px 41px;
+        align-items: center;
+    }
+
+    .footer-left, .footer-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footer-left{
+        .footer-logo{
+            margin-right: 98px;
+        }
+
+        .footer-copyright, a{
+            font-family: 'Poppins';
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            line-height: 24px;
+            color: $color__heading-hero-banner;
+        }
+    }
+
+    .footer-form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: $color__background-footer-form;
+        border-radius: 31px;
+        margin-right: 56px;
+
+        input[type="email"]{
+            width: 389px;
+            padding: 20px 0px 17px 34px;
+            border: none;
+            border-radius: 31px;
+            font-family: 'Poppins';
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            color: $color__text-input;
+            margin-right: 34px;
+        }
+
+        .form-checkbox{
+            margin-right: 31px;
+        }
+
+        input[type="checkbox"]+label{
+            white-space: pre;
+            font-family: 'Poppins';
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            line-height: 20px;
+        }
+
+        label a{
+            text-decoration: underline;
+            color: $color__button-main-blue-green;
+        }
+
+        .main-btn{
+            padding: 18px 32px 15px 34px;
+        }
+
+        .main-btn span{
+            line-height: 30px;
+        }
+    }
+
+    .footer-social-network{
+        display: inline-block;
+    }
+
+    .footer-social-network+.footer-social-network{
+        margin-left: 34px;
+    }
+}

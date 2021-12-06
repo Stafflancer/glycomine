@@ -1,0 +1,58 @@
+a {
+	color: $color__link;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+.header-menu{
+	.menu-link{
+		color: $color__heading-hero-banner;
+		text-transform: uppercase;
+		font-family: "Cabin";
+		font-size: 16px;
+		font-weight: bold;
+		font-style: normal;
+		line-height: 25px;
+	}
+
+	.submenu-link{
+		color: $color__button-main-blue-green;
+		text-transform: uppercase;
+		font-family: "Cabin";
+		font-size: 16px;
+		font-weight: bold;
+		font-style: normal;
+		line-height: 25px;
+	}
+}
+
+.pages{
+	a{
+		span{
+			text-transform: uppercase;
+			font-family: "Cabin";
+			font-size: 16px;
+			font-weight: bold;
+			font-style: normal;
+			line-height: 30px;
+			color: $color__button-main-blue-green;
+		}
+	}
+}
